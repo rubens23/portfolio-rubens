@@ -1,0 +1,406 @@
+.menu {
+	font-family: 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	word-spacing:  180px;
+	padding-top: 40px;
+	padding-left: 260px;
+	color: rgb(214, 214, 214);
+
+}
+
+.sombra_menu{
+	background-color: #10111a3d;
+	width: 100%;
+	height: 10px;
+	margin-top: -65px;
+	filter: blur(1px); /* Adjust the blur radius as needed */
+
+
+}
+
+
+
+.menu ul{
+	list-style: none;
+	
+
+}
+
+
+.menu ul a{
+	text-decoration: none;
+	color: rgb(214,214,214);
+	font-size: 18px;
+
+	
+
+	
+
+
+
+}
+
+.menu ul a:hover{
+	color: #ff4041;
+	/*na questao no nome preto na pagina atual que a pessoa está eu posso alterar para o preto no link de cada pagina deixando o link das demais paginas cinza, para a pessoa saber em que sessão do site ela está*/
+}
+
+.gif{
+	
+	text-align: center;
+    padding-top: 1px;
+	padding-right: 10px;
+    border-right: 1px solid rgb(130,125,125);
+	height:435px;
+	margin-right: 260px;
+	/*para a tag 'border'ficar na borda da imagem tem que criar uma classe dentro da tag da imagem a qual vc quer colocar a borda, e depois deixar os lados que vc quer e pintar os outros de branco com o parametro da propria tag border*/
+	
+
+	
+	
+}
+
+.welcome_text{
+    padding-left: 300px;
+    font-family: 'Roboto', sans-serif;
+	font-size: 55px;
+    color: #ffffff;
+	padding-top: 80px;
+
+
+}
+
+.welcome_text_description{
+	padding-left: 300px;
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+	margin-top: -40px;
+	color: #bdbdbd;
+
+}
+
+.square-button{
+	display: inline-block;
+	padding: 10px 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-size: large;
+	border: 2px solid #ff4041;
+	color: #ffffff;
+	background-color: #ff4041;
+	margin-top: 20px;
+	margin-left: 300px;
+	border-radius: 2px;
+	transition: transform 0.3s;
+}
+
+.square-button:hover{
+	transform: scale(1.1);
+}
+
+.portfolio_text_label{
+	padding-left: 300px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 38px;
+	color: #ff4041;
+	padding-top: 240px;
+
+}
+
+.contato_text_label{
+	padding-left: 300px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 38px;
+	color: #ff4041;
+	padding-top: 150px;
+
+}
+
+.title_list_item{
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-top: 20px;
+	font-size: x-large;
+	color: white;
+}
+
+.desc_list_item{
+	padding-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+	font-size: medium;
+	overflow: hidden;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	color: white;
+}
+
+.email_contato_label{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: larger;
+	margin-left: 300px;
+	margin-top: -20px;
+
+
+}
+
+.whatsapp_contato_label{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: larger;
+	margin-left: 300px;
+	margin-top: 30px;
+
+
+}
+
+.email_contato_text{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: large;
+	margin-left: 300px;
+	margin-top: -10px;
+
+
+}
+
+.whatsapp_contato_text{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: large;
+	margin-left: 300px;
+	margin-top: -10px;
+	padding-bottom: 20px;
+
+
+
+}
+
+#whatsapp_contato{
+	width: 35px;
+	height: 35px;
+	transition: transform 0.3s;
+	position: absolute;
+    top: 1000;
+    left: 0;
+	margin-left: 480px;
+	margin-top: -68px;
+	
+
+}
+
+#whatsapp_contato:hover{
+	transform: scale(1.1);
+
+
+}
+
+
+
+.list_item_desciption_background{
+	background-color: #2b2e41;
+	width: 230px;
+	height: 200px;
+	border-radius: 4px;
+	margin-left: 40px;
+	margin-top: -20px;
+	transition: transform 0.3s;
+	box-shadow: 0 0 20px 0px #23253a; /* Sombra: deslocamento horizontal, deslocamento vertical, desfoque, cor */
+
+}
+
+.list_item_desciption_background:hover{
+
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.horizontal_line{
+	width: 90px;
+    height: 4px;
+    background-color: #ff4041;
+    margin-left: 300px;
+	border-radius: 2px;
+	margin-top: -28px;
+}
+
+
+
+.image-list{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 300px;
+}
+
+.image-list-item img{
+	width: 300px;
+	height: 600px;
+	margin-right: 40px;
+	margin-top: 20px;
+	transition: transform 0.3s;
+	cursor: pointer;
+}
+
+.image-list-item img:hover{
+	transform: scale(1.1);
+}
+
+
+
+body{
+	background-color: #23253a;
+	box-sizing: border-box;
+
+
+}
+
+	
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 60%;
+	
+
+
+	
+
+
+
+}
+
+#kerning1{
+	letter-spacing: 2px;
+}
+
+
+.vertical_line{
+    width: 2px;
+    height: 400px;
+    background-color: #ff4041;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 240px;
+    margin-top: 190px;
+	border-radius: 2px;
+
+    
+}
+
+#whatsapp{
+	margin-right: 223px;
+    width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 592px;
+	transition: transform 0.3s;
+
+
+}
+
+#whatsapp:hover{
+	transform: scale(1.1);
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #23253a;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#modal-image {
+    width: 300px;
+    height: 600px;
+	margin-right: 600px;
+    object-fit: cover;
+}
+
+#modal-text {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 360px;
+	padding-top: 100px;
+	font-weight: bold;
+	color: white;
+}
+
+#modal_text_desc {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 360px;
+	padding-top: 150px;
+	margin-right: 30px;
+	color: white;
+	line-height: 2; 
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-end; /* Align the close button to the end (right) of its container */
+    margin-top: -10px; /* Adjust the margin to position it close to the top-right corner */
+}
+
+
+
+
+
+
+grid-column: span 2; /* Make the close button span both columns */
+}
+.close:hover,
+.close:focus {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*colocar os links nas imagens do whatsapp e do instagram*/
+
+
+

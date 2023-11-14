@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        
+<header> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+
+
+
+
+        <title> Home | Portfólio Rubens </title>       
+
+</header>
+
+</head>
+
+
+
+
+<body>
+
+     
+        <aside class= "menu">
+                <ul>
+                        <li><a href="#" onclick="scrollToImageList()">PORTFÓLIO</a>
+                        <a href="#" onclick="scrollToContato()">CONTATO</a>
+                </ul> 
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+
+        </aside>
+
+
+
+        <div class="sombra_menu">
+
+                
+        </div>
+
+        <p class="welcome_text">Olá, sou<br>desenvolvedor android</p>
+        <p class="welcome_text_description">Tenho dois anos de experiência, diversos projetos e app publicado play store!</p>
+
+        <a href="#" class="square-button" onclick="scrollToImageList()">Conheça meu trabalho</a>
+
+        <p class="portfolio_text_label">Portfólio</p>
+        <div class="horizontal_line"></div>
+
+        <ul class="image-list">
+                <li class="image-list-item" onclick="openModal('App Dose Certa', 'Aplicativo que serve para as pessoas lembrarem dos horários dos medicamentos que elas estão tomando. O aplicativo conta com uma tela de detalhe para cada medicamento onde a pessoa pode ver informações como horários das doses, duração do tratamento, doses já tomadas além de um botão para ativar o alarme de lembrete de medicamentos.', 'foto_dose_certa.png')">
+                       
+                                <img src="foto_dose_certa.png" alt="Image 1">
+                                <div class="list_item_desciption_background">
+                                <p class="title_list_item">App Dose Certa</p>
+                                <p class="desc_list_item">Aplicativo que serve para as pessoas lembrarem dos horários dos medicamentos que elas estão tomando. O aplicativo conta com uma tela de detalhe para cada medicamento onde a pessoa pode ver informações como horários das doses, duração do tratamento, doses já tomadas além de um botão para ativar o alarme de lembrete de medicamentos.</p>
+        
+                        </div>
+                       
+
+                </li>
+                <li class="image-list-item" onclick="openModal('App Descomplica Mudança', 'DescomplicaMudança é um app essencial para uma transição suave e organizada para o novo lar dos seus sonhos. Com recursos que permitem controlar despesas e receitas mensais, definir metas específicas para cada custo da mudança, e oferecer dicas especializadas de planejamento, o aplicativo coloca você no comando total do planejamento da sua mudança. Acompanhe o progresso, veja quanto já economizou e transforme a mudança em uma jornada tranquila e memorável.', 'foto_ajuda_mudanca.png')">
+                        <img src="foto_ajuda_mudanca.png" alt="Image 2">
+                        <div class="list_item_desciption_background">
+
+                        <p class="title_list_item">App Descomplica Mudança</p>
+                        <p class="desc_list_item">DescomplicaMudança é um app essencial para uma transição suave e organizada para o novo lar dos seus sonhos. Com recursos que permitem controlar despesas e receitas mensais, definir metas específicas para cada custo da mudança, e oferecer dicas especializadas de planejamento, o aplicativo coloca você no comando total do planejamento da sua mudança. Acompanhe o progresso, veja quanto já economizou e transforme a mudança em uma jornada tranquila e memorável.</p>
+                </div>
+
+
+
+                </li>
+                <li class="image-list-item" onclick="openModal('App Salon Premium', 'Salon Premium Client é um aplicativo para android que possibilita que clientes de um salão vejam os serviços, funcionários e horários disponíveis e marquem atendimentos em um salão de beleza.', 'foto_premium_client.png')">
+                        <img src="foto_premium_client.png" alt="Image 3">
+                        <div class="list_item_desciption_background">
+
+                        <p class="title_list_item">App Salon Premium</p>
+                        <p class="desc_list_item">Salon Premium Client é um aplicativo para android que possibilita que clientes de um salão vejam os serviços, funcionários e horários disponíveis e marquem atendimentos em um salão de beleza.
+
+                        </p>
+
+                </div>
+
+
+
+
+                </li>
+                <li class="image-list-item" onclick="openModal('App Salon Premium Admin', 'Salon Admin Premium é um aplicativo para android que possibilita que funcionários e/ou administradores de um salão de beleza, acompanhem todos os atendimentos marcados pelos clientes no app do cliente(Salon Premium Client).', 'foto_premium_admin.png')">
+                        <img src="foto_premium_admin.png" alt="Image 4">
+
+                        <div class="list_item_desciption_background">
+
+                        <p class="title_list_item">App Salon Premium Admin</p>
+                        <p class="desc_list_item">Salon Admin Premium é um aplicativo para android que possibilita que funcionários e/ou administradores de um salão de beleza, acompanhem todos os atendimentos marcados pelos clientes no app do cliente(Salon Premium Client).
+
+                        </p>
+
+                </div>
+
+
+
+                </li>
+
+                <!-- Add more images as needed -->
+        </ul>
+
+        <p class="contato_text_label">Contato</p>
+        <p class="email_contato_label">E-mail</p>
+        <p class="email_contato_text">rubens_assis@outlook.com.br</p>
+        <p class="whatsapp_contato_label">Whats App</p>
+        <p class="whatsapp_contato_text">+55 (11) 96142-2254</p>
+        <a href="https://whatsapp.com"><img id="whatsapp_contato" src="whatsapplogo.png"/></a>
+
+                <div class="modal" id="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <div class="modal-content-container">
+                                <img id="modal-image" src="" alt="Imagem">
+                                <p id="modal-text"></p>
+                                <p id="modal_text_desc"></p>
+
+                            </div>
+                        </div>
+                </div>
+
+
+
+
+
+        
+
+
+        <div class="vertical_line"></div>
+        <a href="https://whatsapp.com"><img id="whatsapp" src="whatsapplogo.png"/>
+
+                <script>
+                        function scrollToImageList() {
+                          const imageListPosition = document.querySelector('.image-list').offsetTop;
+                    
+                          window.scrollTo({
+                            top: imageListPosition,
+                            behavior: 'smooth' 
+                          });
+                        }
+
+                        function scrollToContato() {
+                          const contatoPosition = document.querySelector('.contato_text_label').offsetTop;
+                    
+                          window.scrollTo({
+                            top: contatoPosition,
+                            behavior: 'smooth' 
+                          });
+                        }
+
+                        function openModal(text, desc, imageUrl) {
+                                document.getElementById('modal-text').innerText = text;
+                                document.getElementById('modal_text_desc').innerText = desc;
+                                document.getElementById('modal-image').src = imageUrl;
+                                document.getElementById('modal').style.display = 'block';
+                                document.body.style.overflow = 'hidden'; // Impede o rolar da página enquanto o modal está aberto
+}
+
+                        function closeModal() {
+                                document.getElementById('modal').style.display = 'none';
+                                document.body.style.overflow = 'auto'; // Restaura a rolagem da página
+                        }
+                      </script>
+               
+</body>
+
+
+
+</html>
+        
